@@ -61,7 +61,16 @@ python src/main.py
 ```bash
 pytest tests/test_regression.py -v
 ```
+## Results
 
+The application successfully:
+
+- Loads and validates all datasets
+- Selects the best four ideal functions using least-squares
+- Maps test points using the √2 deviation rule
+- Stores results in SQLite
+- Generates an interactive Bokeh visualization
+- Passes all unit tests
 ## Author
 
 Divyashree Nagaraj
