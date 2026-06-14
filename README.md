@@ -60,8 +60,12 @@ python src/main.py
 
 ```bash
 pytest tests/test_regression.py -v
+
 ```
 ## Results
+## Visualization
+
+![Regression Plot](images/result.png)
 
 The application successfully:
 
