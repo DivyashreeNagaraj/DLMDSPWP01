@@ -1,4 +1,16 @@
-__pycache__/
-*.pyc
-.env
+# Virtual environment
 venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Pytest
+.pytest_cache/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
