@@ -75,6 +75,17 @@ The application successfully:
 - Stores results in SQLite
 - Generates an interactive Bokeh visualization
 - Passes all unit tests
+
+## Workflow
+
+1. Load training, ideal and test datasets.
+2. Validate dataset structure.
+3. Select four ideal functions using least-squares.
+4. Map test points using the √2 threshold.
+5. Store results in SQLite.
+6. Generate interactive visualization.
+7. Execute unit tests.
+
 ## Author
 
 Divyashree Nagaraj
